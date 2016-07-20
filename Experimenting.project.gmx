@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sp_horise</sprite>
+    <sprite>sprites\sprite1</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_track</background>
@@ -14,9 +15,17 @@
   <paths name="paths">
     <path>paths\pt_track1</path>
   </paths>
-  <scripts name="scripts"/>
+  <scripts name="scripts">
+    <script>scripts\scr_horsieController.gml</script>
+    <script>scripts\contr_Questions.gml</script>
+  </scripts>
+  <fonts name="fonts">
+    <font>fonts\hebrew</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_horsie</object>
+    <object>objects\obj_questions</object>
+    <object>objects\obj_question</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
